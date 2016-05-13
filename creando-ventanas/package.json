@@ -1,0 +1,23 @@
+{
+  "name": "mi-app-js",
+  "version": "0.0.1",
+  "description": "aplicación para prácticas de desarrollo en js",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "Falló la aplicación"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rodrigoec19/mi-app-js.git"
+  },
+  "author": "rodrigoec19",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/rodrigoec19/mi-app-js/issues"
+  },
+  "homepage": "https://github.com/rodrigoec19/mi-app-js#readme",
+  "devDependencies": {
+    "electron-prebuilt": "^1.0.1"
+  }
+}
