@@ -1,0 +1,30 @@
+{
+  "name": "mi-app",
+  "version": "0.0.1",
+  "description": "empaquetado de aplicación en electron...",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron .",
+		"package": "asar pack MiApp-linux-x64/resources/app MiApp-linux-x64/resources/app.asar",
+		"build": "electron-packager ./ MiApp --ignore=node_modules/electron-* --platform=linux --arch=x64 --app-version=0.0.1 ---build-version=0.1 --icon=./app/mi-app.png",
+    "test": "Falló la aplicación"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rodrigoec19/aprendiendo-electron-js.git"
+  },
+  "keywords": [
+    "mi",
+    "app"
+  ],
+  "author": "rodrigoec19",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/rodrigoec19/aprendiendo-electron-js/issues"
+  },
+  "homepage": "https://github.com/rodrigoec19/aprendiendo-electron-js#readme",
+  "devDependencies": {
+    "electron-packager": "^7.0.1",
+    "electron-prebuilt": "^1.0.2"
+  }
+}
