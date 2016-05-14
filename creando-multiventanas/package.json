@@ -1,0 +1,23 @@
+{
+  "name": "multiventanas",
+  "version": "0.0.1",
+  "description": "creado mutliventanas haciendo uso de electron en js...",
+  "main": "app.js",
+  "scripts": {
+	"start": "electron .",
+    "test": "Falló la aplicación"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rodrigoec19/aprendiendo-electron-js.git"
+  },
+  "keywords": [
+    "multiventanas"
+  ],
+  "author": "rodrigoec19",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/rodrigoec19/aprendiendo-electron-js/issues"
+  },
+  "homepage": "https://github.com/rodrigoec19/aprendiendo-electron-js#readme"
+}
