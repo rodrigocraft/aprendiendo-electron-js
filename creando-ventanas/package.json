@@ -18,6 +18,6 @@
   },
   "homepage": "https://github.com/rodrigoec19/mi-app-js#readme",
   "devDependencies": {
-    "electron-prebuilt": "^1.0.1"
+    "electron-prebuilt": "^1.2.5"
   }
 }
