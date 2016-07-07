@@ -1,0 +1,28 @@
+{
+  "name": "whats.app",
+  "version": "0.0.1",
+  "description": "Práctica de desarrollo de aplicación con electron",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rodrigoec19/aprendiendo-electron-js.git"
+  },
+  "keywords": [
+    "desarrollo",
+    "electron",
+    "whats.app"
+  ],
+  "author": "rodrigoec19",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/rodrigoec19/aprendiendo-electron-js/issues"
+  },
+  "homepage": "https://github.com/rodrigoec19/aprendiendo-electron-js#readme",
+  "devDependencies": {
+    "electron-prebuilt": "^1.2.6"
+  }
+}
